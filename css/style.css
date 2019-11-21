@@ -177,7 +177,7 @@ p {
 }
 #about span {
     display: block;
-/*    padding-bottom: 6px;*/
+    /*    padding-bottom: 6px;*/
 }
 #about .progress {
     border-radius: 0;
@@ -302,7 +302,7 @@ p {
     margin-right: auto;
 }
 #about .proj-img h4{
-   font-size: 12px;
+    font-size: 12px;
     color: #696969;
     font-weight: 100;
     font-style: italic;
@@ -431,6 +431,33 @@ footer {
     background: #FFD321;
     color: #000;
 }
+
+
+.container-carousel{
+    width: 80%;
+    margin: 0 auto;
+}
+.container-carousel .carousel-inner .item{
+    background: #000;
+}
+
+.container-carousel .carousel-inner .item h3
+{
+    overflow: hidden;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-carousel .carousel-indicators{
+    margin-top: 30px;
+} 
 
 @media screen and (min-width: 992px) {
     @-moz-document url-prefix() {
