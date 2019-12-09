@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- SITE TITLE -->
+        <title>Milestone 4</title>
+        <!--
+
+Blaster Template
+
+http://www.templatemo.com/tm-472-blaster
+
+-->
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+
+        <!-- STYLESHEET CSS FILES -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/nivo-lightbox.css">
+        <link rel="stylesheet" href="css/nivo_themes/default/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+        <!-- navigation section -->
+        <section class="navbar navbar-fixed-top custom-navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon icon-bar"></span>
+                        <span class="icon icon-bar"></span>
+                        <span class="icon icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"><span class="bold">PAWLS</span></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html" >HOME</a></li>
+                        <li><a href="milestone-1.html" >MILESTONE 1</a></li>
+                        <li><a href="milestone-2.html" >MILESTONE 2</a></li>
+                        <li><a href="milestone-3.html" >MILESTONE 3</a></li>
+
+                        <li><a href="milestone-4.html" class="activeState">MILESTONE 4</a></li> <!--
+<li><a href="milestone-5.html">MILESTONE 5</a></li>
+-->
+
+                        <!--
+<li><a href="#portfolio" class="smoothScroll">PORTFOLIO</a></li>
+<li><a href="#team" class="smoothScroll">TEAM</a></li>
+<li><a href="#contact" class="smoothScroll">CONTACT</a></li>
+-->
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- about section -->
+        <section id="about">
+            <div class="container">
+
+
+                <div class="row milestone-module">
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <h1 class="heading bold">Milestone 4</h1>
+                        <!--                        <h2 class="subheading">WE ARE TALANTED DESIGNERS &amp; DEVELOPERS</h2>-->
+                    </div>
+                    <div class=" project-each col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                        <!--                        <i class="fa fa-cloud"></i>-->
+                        <h2>System concept</h2>
+                        <p>
+                            Through our user research and feedback we propose PAWLS:<br><br>
+
+                            A system that helps the owners of the newly adopted dogs. PAWLS focuses on helping new owners by providing an assistant that senses when the dog is agitated, scared, or in need of their owners. PAWLS is essentially a smart crate system that attempts to decrease disruptive barking in dogs. It has the capability to collect data about a dog’s barking, its potential triggers, and suggests actions that the owner can take to help their dog.<br>
+
+                            There are two components to Pawls, the physical crate that uses pervasive technology and the mobile app which gives users the power to access all the collected data in digestible form and control the crate.<br>
+
+                            Each year, approximately 6.5 million companion animals enter shelters in the US. Less than half of these animals, however, are adopted. In order to address the rampant issue of pet homelessness, we decided to explore how ubiquitous computing can do two things: decrease the number of dogs being given up by their previous owners to shelters and ensure that newly adopted dogs stay adopted and remain in their new homes. 
+
+
+                        </p>
+
+                        <div class="proj-img" style=" width:70%;  height: auto">
+                            <img src="images/m-4/system-concept.jpg">
+
+                        </div><br><br>
+
+
+                    </div>
+
+
+
+
+                    <div class=" project-each col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                        <!--                        <i class="fa fa-cloud"></i>-->
+                        <h2>High level Architecture</h2>
+
+                        <div class="proj-img" style=" width:70%;  height: auto">
+                            <img src="images/m-4/high-archi.jpg">
+
+                        </div><br>
+
+                        <p style="margin-left: 20px;">
+                            <span>&emsp;&emsp;</span><strong>1.  PAWLS device:</strong>
+                            PAWLS is a solution which the owners has to use with the dog crate. PAWLS is comprised of features like video camera, speaker, sound sensor, video feed, crate door control, and blind control.
+                            <br>
+                            <span>&emsp;&emsp;</span><strong>2.  PAWLS app:</strong>
+                            PAWLS app is essentially used with the device. The app’s main purpose is to receive real time notifications from the device. It provides users with features such as real time interaction with the dog using camera and video feed, and control of crate doors and blinders. It helps set up the usage of PAWLS device. 
+                            <br>
+                            <span>&emsp;&emsp;</span><strong>3.  Google Cloud IOT Platform:</strong>In this case, the unique "resource" in question is your device (Core, Photon, Electron). Every device has a URL, which can be used to GET variables, POST a function call, or PUT new firmware. Google Cloud IOT platform is used to process the requests
+                            <br>
+                            <span>&emsp;&emsp;</span><strong>4.  Database server:</strong>A database to store and fetch the information collected by the PAWLS. <br><br>
+
+
+
+                    </div>
+
+
+
+                    <div class=" project-each col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                        <!--                        <i class="fa fa-cloud"></i>-->
+                        <h2>Goals of Demo</h2>
+
+                        <p style="margin-left: 20px;">
+                            <span>&emsp;&emsp;</span>1.  Demonstrate Pawl’s effectiveness in decreasing a dog’s barking when the owner is not home.<br>
+                            <span>&emsp;&emsp;</span>2.  Demonstrate the remote interaction between Pawl and the owner.<br>
+                            <span>&emsp;&emsp;</span>3.  Demonstrate how Pawl attempts to evenly distribute the burden of dog training among the owner, the dog, and the product itself.  <br>
+                            <span>&emsp;&emsp;</span>4.  What kind of information</p>
+
+
+
+                    </div>
+
+                    <div class=" project-each col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                        <!--                        <i class="fa fa-cloud"></i>-->
+                        <h2>Prototyping Process for Mobile App</h2>
+
+
+
+                        <h3> <strong style="background: #ffd321b3; font-size: 28px;">
+                            1.  Make the data visualization of barking understandable at a glance.</strong>
+                        </h3><br>
+                        <div class="proj-img" style=" width:20%;  height: auto">
+                            <img src="images/m-4/ss-data-viz.png">
+                            <h4>Data visualization of the triggers and behavior</h4>
+
+                        </div><br><br>
+
+                        <h3> <strong style="background: #ffd321b3; font-size: 28px;">
+                            2.  Consider the different use cases </strong>
+                        </h3><br>
+                        <div class="proj-img" style=" width:25%;  height: auto">
+                            <img src="images/m-4/ss-homepage.png">
+                            <h4>Crate actions accessed on homepage</h4>
+                        </div><br>
+
+                        <div class="proj-img" style=" width:50%;  height: auto">
+                            <img src="images/m-4/ss-real-video.png">
+                            <h4>Crate actions accessed on the real time video</h4>
+                        </div><br><br>
+
+
+                        <h3> <strong style="background: #ffd321b3; font-size: 28px;">
+                            3.  Accommodate for a variety of needs  </strong>
+                        </h3><br>
+                        <div class="proj-img" style=" width:50%;  height: auto">
+                            <img src="images/m-4/ss-use-cases.jpg">
+                            <h4>options to choose hourly, daily , weekly, and monthly data</h4>
+
+                        </div><br>
+                        <div class="proj-img" style=" width:25%;  height: auto">
+                            <img src="images/m-4/ss-homepage.png">
+                            <h4>Option to choose training modes from the homepage</h4>
+
+                        </div><br>
+
+                    </div>
+
+                    <div class=" project-each col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                        <!--                        <i class="fa fa-cloud"></i>-->
+                        <h2>Prototyping Process for Hardware</h2>
+
+                        <p style="margin-left: 20px;">
+                            <span>&emsp;&emsp;</span>1.  Research IoT microcontrollers that could support high-definition streaming and audio playback<br>
+                            <span>&emsp;&emsp;</span>2.  Investigate open source webcam software that can easily be implemented <br>
+                        </p>
+                    </div>
+
+
+                    <div class=" project-each col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                        <!--                        <i class="fa fa-cloud"></i>-->
+                        <h2>Demo system Architecture </h2>
+
+
+
+                        <div class="proj-img" style=" width:60%;  height: auto">
+                            <img src="images/m-4/demo-archi.jpg">
+
+                        </div><br><br>
+
+                        <p>
+                            The demo will be divided into 3 parts. The PAWLS app prototype, PAWLS device, and the Wizard. PAWLS device can currently perform the functions of real time video camera feed, speaker output, and sound sensing. Our wizard will perform the rest of the functions by manual intervention. Wizard will be performing the following: treat dispensing, blind open and shut, crate door open and shit, and the visual feed of the dog on the mobile app. The PAWLS app will be shown using a Figma prototype. The user will be able to interact with the actual prototype. The wizard will manual perform activating the device and other functions. 
+                        </p>
+
+
+
+                    </div>
+
+
+
+
+                    <div class=" project-each col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                        <!--                        <i class="fa fa-cloud"></i>-->
+                        <h2>Demo script</h2>
+
+                        <p>
+                            Narration: Minna is a graduate student who has recently adopted a dog, Coco from a nearby shelter. Since she is new to Coco she is unsure of his behavior and habits. Minna receives a phone call from one of her friend, Sam. Sam tells Minna that she needs to be picked up from the airport.<br> <br>
+
+                            Minna: “Hey Sam! What’s up?”<br>
+                            Sam: “Hey! So my brother is unavailable to pick me up from the airport. Can you please pick me up?”<br>
+                            Minna: “Like right now?”<br>
+                            Sam: “Yes!”<br>
+                            Minna: “Ohh okay. I will be right there”<br><br>
+
+                            Narrator: Since this is a new and unusual situation for Minna, she has not set up food or any other facilities for her dog. She leaves immediately as this is an emergency situation. Coco see Minna leaving the house, and quietly goes and sits on the sofa. <br><br>
+
+                            Narrator: After a few minutes Coco hears an ambulance truck outside. It is making a loud noise which Coco is not used to yet. Coco gets scared and goes towards the window and starts barking. <br><br>
+
+                            <strong>After hearing Coco bark for 30 secs, PAWLS uses its noise sensors and activates. <br>
+                                PAWLS starts playing soothing music to calm Coco down. <br></strong><br><br>
+
+                            Narrator: Coco calms down and sits near the window. After a few minutes Coco again hears a ambulance noise outside the house which is much louder than before, and starts barking. <br><br>
+
+                            <strong> PAWLS sense that Coco is barking for the second time in a very short interval and plays a pre-recorded voice tape that Minna had recorded a few days ago using Pawl app. “Coco, gooood boy! Come here! Coco ! Come here”</strong><br><br>
+
+                            Narrator: Coco starts walking towards the crate, but is still barking. <br><br>
+
+                            <strong> PAWLS sends a notification to Minna informing her that Coco has been barking for more than a minute now. </strong><br><br>
+
+                            Narrator: Minna receives a notification from PAWLS which says “Coco has been barking for two minutes.” Minna clicks on the notification and finds crate actions Minna could take to calm Coco down. <br><br>
+                            <strong> Minna taps on video icon on the app, and PAWLS video camera gets activated. Minna starts talking to Coco. Coco sees Minna on the video feed and calms down. </strong><br>
+
+                            <strong>Minna receives a notification from the app after she ends the call. PAWLS sends her a notification saying “Coco is quiet for 2mins”. Minna is happy. She taps on the Treat icon on PAWLS and PAWLS gives a treat to Coco. </strong><br><br>
+
+                            <i><b>After the incident</b></i><br><br>
+
+                            Narrator: Minna comes home after an hour. She finds Coco sleeping in the crate. <br><br>
+                            <strong>Minna opens PAWLS to see why exactly Coco was barking. She taps on the report icon on PAWLS app and sees that Coco barked from 12-1pm and the potential trigger was an ambulance.</strong><br>
+                            <strong>PAWLS informs her to put soothing music at 12 pm everyday to prevent today’s incident in the future. 
+                                Minna schedules soothing music at 12pm</strong><br><br>
+
+
+
+                            Narrator: Minna is petting Coco. After a few hours, Sam calls Minna. <br><br>
+
+                            Sam: “Hey Minna, thanks for picking me up. Everything good at your place? How is Coco?”<br>
+
+                            Minna: “Hey! Sure, no problem. Coco is doing great! I checked my PAWLS app and it informed me that Coco got scared of ambulance sound and that is why he was barking.”<br>
+
+                            Sam: “Wow, that is a useful app.”<br>
+
+                            Minna: “Yes! It is! It is helping me a lot with Coco. I will recommend it”<br>
+
+
+
+                        </p>
+
+
+                    </div>
+
+
+
+
+
+                    <div class=" project-each col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                        <!--                        <i class="fa fa-cloud"></i>-->
+                        <h2>Prototyping Process:</h2>
+
+                        <p>
+                            After researching various IoT microcontrollers, our group decided on utilizing a Raspberry Pi 3 Model B+ instead of an Arduino or Particle Board. The Raspberry Pi’s quad-core processor is best suited for processing and streaming high-definition video. The Raspberry Pi’s extensive DIY community helped guide our software implementation, which involved running open-source “Motion” software, which offers extensive options related to recording video streams. We also needed to identify a camera that could record the entire area within a kennel using a fish-eye style lens.
+                        </p>
+
+                        <p style="margin-left: 20px;">
+                            <span>&emsp;&emsp;</span><b>1.  The camera’s placement and angle within the kennel is important - if it’s mounted too level, the back of the kennel cannot be seen by the user.</b><br>
+                            <span>&emsp;&emsp;</span><b>2.  Even with a faster IoT-connected microcontroller like the Raspberry Pi, there can be significant delay in video processing from the device to your mobile device.
+                            </b><br><br>
+                        </p>
+
+                        <h3> <strong style="background: #ffd321b3; font-size: 28px;">
+                            Materials:
+
+                            </strong></h3><br>
+                        <p>
+                            Cardboard<br>
+                            Raspberry Pi 3 Model B+<br>
+                            Night Vision Fish-eye Camera Module<br>
+                            Bluetooth Speaker
+
+                        </p> <br><br>
+
+                        <h3> <strong style="background: #ffd321b3; font-size: 28px;">
+                            Software:
+
+                            </strong></h3><br>
+                        <p>
+                            Raspbian OS<br>
+                            Motion Camera Software
+
+                        </p> <br><br>
+
+
+                    </div>
+
+
+
+                    <div class=" project-each col-lg-12 col-md-12 col-sm-12 wow fadeInUp" data-wow-delay="0.6s">
+                        <!--                        <i class="fa fa-cloud"></i>-->
+                        <h2>Prototyping</h2><br><br>
+
+
+                        <div class="proj-img" style=" width:100%;  height: auto">
+                            <img src="images/m-4/prototyping-1.jpg">
+                            <h4>Prototype build up</h4>
+
+                        </div><br><br>
+
+                        <div class="proj-img" style=" width:100%;  height: auto">
+                            <img src="images/m-4/prototype-2.jpg">
+                            <h4>Setting up video feed</h4>
+
+                        </div><br><br>
+
+                        <div class="proj-img" style=" width:60%;  height: auto">
+                            <img src="images/m-4/prototype-3.jpeg">
+                            <h4>Real time video screening on the desktop</h4>
+
+                        </div><br><br><br>
+
+                        <p>Here are a few glimpses of our demo:</p>
+
+                        <div class="proj-img" style=" width:100%;  height: auto">
+                            <img src="images/m-4/dog-gif-2.gif">
+                            <h4>Minna petting Coco</h4>
+
+                        </div><br><br>
+
+                        <div class="proj-img" style=" width:100%;  height: auto">
+                            <img src="images/m-4/dog-gif-1.gif">
+                            <h4>Coco reacting to the ambulance sound outside and barking</h4>
+
+                        </div><br><br>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+
+
+
+        <!-- JAVASCRIPT JS FILES -->	
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/smoothscroll.js"></script>
+        <script src="js/isotope.js"></script>
+        <script src="js/imagesloaded.min.js"></script>
+        <script src="js/nivo-lightbox.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/custom.js"></script>
+
+
+    </body>
+</html>
